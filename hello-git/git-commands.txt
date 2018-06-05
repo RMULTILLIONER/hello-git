@@ -1,0 +1,42 @@
+BASIC COMMANDS RELATED TO Git
+
+git --version   
+(check version of git if installed)
+
+git init         
+(check which Git file will add to your repository.
+keep track of all files base by our commands.just seeing,not adding) 
+
+git status 
+(review resulting list of files; you can tell Git which
+of the files to place into version control.Obtain summary of 
+which files have changes that are staged for next commit.)
+
+git add <file/directory name>  
+(this command will add everything in your current directory
+and its subdirectories. all stages except hidden files )
+
+git add .
+(add stages for new and modified,without deleted)
+
+git commit -m"message to be print for our convinence"
+(use to make changes permanent.like version, created checkpoint.
+ -m use to message along with commit for our convinence)
+
+git log
+ (shows commit logs i.e. details/history of changes)
+
+git branch
+(list,create or delete branches.its like movable pointer for the commits.
+default is master !)
+
+git checkout
+(checkout for desired status of your reprository(like branches
+or particular files)) 
+
+git remote add 
+(use as- git remote add *variable name(conventional is origin)* *url*
+ to add new remote)
+
+
+
